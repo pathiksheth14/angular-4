@@ -1,0 +1,5 @@
+<div class="tyn-home" *ngFor="let item of model">
+   <input type="text" [(ngModel)]="item.text1" />
+   <input type="text" [(ngModel)]="item.text2" />
+</div>
+<button (click)="add()">Add</button>
